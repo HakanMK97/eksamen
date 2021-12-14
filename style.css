@@ -29,7 +29,8 @@ ul {
   }
 
 
-.wrapper { /*indholdet i wrapperen får en størelse*/
+/*Styling for forsiden*/ 
+  .wrapper { /*indholdet i wrapperen får en størelse*/
     width: 100%;
 }
 
@@ -103,3 +104,5 @@ ul {
         float: left;
 }
 }
+
+/*Styling for Projekter*/
