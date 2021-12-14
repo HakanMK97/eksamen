@@ -1,0 +1,105 @@
+html, body{ /* Baggrundsfarven på hele siden*/
+    background-color: #16162d;
+}
+
+
+
+ul { 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+
+  li { /* får teksten i nav til at flyde til venstre*/
+    float: left;
+  }
+  
+  li a { /*teksten i nav baren ændres her med farve og padding, ændring på padding her er top og højre*/
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover { /*gav navven en simpel hover effekt*/
+    background-color: #111;
+  }
+
+
+.wrapper { /*indholdet i wrapperen får en størelse*/
+    width: 100%;
+}
+
+.img-info { /* det samme gælder for teksten med informationerne*/
+    width: 100%;
+}
+
+.img-info h2 { /* Titlen med informationerne får en font, samt størrelse og farve*/
+    padding: 30px 30px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color:#eee;
+    line-height: 44px;
+}
+
+.img-info p { /* Teksten får nu også den samme font, samt størelse og farve*/
+    padding: 0px 30px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #eee;
+    line-height: 24px;
+}
+
+.img-mig { /*Billedet af mig får en størrelse */
+    width: 100%;
+}
+
+@media only screen and (min-width: 650px) /*her har jeg leget med media, og er kommet frem til at denne value passer til min side, der er stadig en del der skal forståes inde for media quieres*/ {
+    .wrapper { /*Wrapperen justeres inde for det valgte Media*/
+        width: 600px ;
+        margin: 0 auto;
+    }
+    .img-info h2 { /*Det samme med den informative tekst, samt billedet af mig ændres ifht media*/
+        padding: 20px 0px 0px;
+    }
+    
+    .img-info p {
+        padding: 20px 0px 0px;
+    }
+    .img-mig {
+        padding-top: 30px;
+        width: 90%;
+    }
+}
+
+
+
+
+@media only screen and (min-width: 1000px) /*Det samme gælder her, for denne media*/ {
+    .wrapper {
+        width: 1000px;        
+    }
+
+    .img-info { /* her får jeg infoen om mig til at sidde til højre af min side*/
+        width: 50%;
+        float: right;
+    }
+
+    .img-info h2 {
+        padding: 20px 0px 0px 30px;
+    }
+    
+    .img-info p {
+        padding: 20px 0px 0px 30px;
+    }
+
+    .img-mig { /* i dette punkt får jeg billedet af mig til at sidde på venstre del af siden, når man kommer i desktop resulotion*/
+        padding-top: 30px;
+        padding-bottom: 20px;
+        width: 350px;
+        float: left;
+}
+}
