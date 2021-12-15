@@ -9,7 +9,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: rgb(51, 51, 51);
   }
 
   li { /* får teksten i nav til at flyde til venstre*/
@@ -18,7 +18,7 @@ ul {
   
   li a { /*teksten i nav baren ændres her med farve og padding, ændring på padding her er top og højre*/
     display: block;
-    color: white;
+    color: rgb(238, 238, 238);
     text-align: center;
     padding: 10px 30px;
     text-decoration: none;
@@ -43,7 +43,7 @@ ul {
     padding: 30px 30px 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 50px;
-    color:#eee;
+    color:rgb(238, 238, 238);
     line-height: 44px;
 }
 
@@ -51,7 +51,7 @@ ul {
     padding: 0px 30px 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
-    color: #eee;
+    color: rgb(238, 238, 238);
     line-height: 24px;
 }
 
@@ -125,7 +125,7 @@ ul {
     
     .imgcontainer h2 {
         font-size: 50px;
-        color: #eee;
+        color: rgb(238, 238, 238);
         font-family: Arial, Helvetica, sans-serif;
         
 
@@ -133,7 +133,7 @@ ul {
 
     .imgcontainer p {
         font-size: 20px;
-        color: #eee;
+        color: rgb(238, 238, 238);
         font-family: Arial, Helvetica, sans-serif;
 
         
@@ -158,14 +158,14 @@ ul {
         
         .imgcontainer h2 {
             font-size: 50px;
-            color: #eee;
+            color: rgb(238, 238, 238);
            font-family: Arial, Helvetica, sans-serif;
     
         }
     
         .imgcontainer p {
             font-size: 20px;
-            color: #eee;
+            color: rgb(238, 238, 238);
            
             
         }
