@@ -7,7 +7,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(56, 24, 24);
+    background-color: #381818;
   }
 
   li { /* får teksten i nav til at flyde til venstre*/
@@ -115,7 +115,7 @@ ul {
         margin: 0px;
     
     }  
-    .logo {
+    .logo { /* Tilføjet logoer fra forrige projekter, for at skabe en visualisering af forrige arbejde*/
         width: 80%;
         padding-right: 50px;
         padding-top: 100px;
@@ -132,7 +132,7 @@ ul {
     
     .imgcontainer h2 { /* her får jeg min titel til at ændres efter redigering på resulotionen*/
         font-size: 50px;
-        color: rgb(238, 238, 238);
+        color: #eeeeee;
         font-family: Arial, Helvetica, sans-serif;
         
 
