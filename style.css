@@ -1,13 +1,13 @@
 html, body{ /* Baggrundsfarven på hele siden*/
-    background-color: #3C3C3C;
+    background-color: #16162d;
 }
 
 ul { 
-    list-style-type: none;
+    list-style-type: none; /*gav navven den samme farve som baggrundsfarven på siden for at få navven til at blende sammen*/
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #381818;
+    background-color: #16162d;
   }
 
   li { /* får teksten i nav til at flyde til venstre*/
@@ -33,7 +33,7 @@ ul {
     width: 100%;
 }
 
-h1 {
+h1 { /*g'r lige h1'eren mindre så der er en undertitel*/ 
     padding: 0px 30px 0px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
@@ -118,7 +118,7 @@ h1 {
 @media only screen and (max-width: 650px) {
     .frontimage {
         display: inline-block;
-        width: 500px;
+        width: 380px;
         height: 250px;
         margin: 0px;
     
