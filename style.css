@@ -33,6 +33,14 @@ ul {
     width: 100%;
 }
 
+h1 {
+    padding: 0px 30px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color:rgb(238, 238, 238);
+    line-height: 44px;
+}
+
 .img-info { /* det samme gælder for teksten med informationerne*/
     width: 100%;
 }
